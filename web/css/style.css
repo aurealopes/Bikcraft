@@ -12,6 +12,7 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 .btn {
@@ -131,8 +132,7 @@ img {
     font-size: 48px;
     font-weight: bold;
     color: #fff;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
 }
 
 .quote-externo {
