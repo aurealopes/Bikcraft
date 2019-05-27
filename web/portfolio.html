@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
-</head> 
-    
-    <body>
+</head>
+
+<body>
 
     <header class="header">
         <div class="container">
@@ -38,19 +38,48 @@
     </section>
 
     <section class="container">
-        <blockquote class="quote_clientes">
-            <p>“A certificação de metodologias que nos auxiliam a lidar com o aumento do diálogo entre os diferentes
-                setores produtivos aponta para a melhoria de todos os recursos.”</p>
-            <cite>Barbara Moss</cite>
-        </blockquote>
+        <ul class="rslides">
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“A certificação de metodologias que nos auxiliam a lidar com o aumento do diálogo entre os
+                        diferentes
+                        setores produtivos aponta para a melhoria de todos os recursos.”</p>
+                    <cite>Barbara Moss</cite>
+                </blockquote>
+            </li>
+
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Assim mesmo, o acompanhamento das preferências de consumo é uma das consequências das condições
+                        financeiras e administrativas exigidas.”</p>
+                    <cite>Bernardo Cohen</cite>
+                </blockquote>
+            </li>
+
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Todavia, o desenvolvimento contínuo de distintas formas de atuação garante a contribuição de um
+                        grupo importante na determinação do processo de comunicação como um todo.”</p>
+                    <cite>Jhony Rato</cite>
+                </blockquote>
+            </li>
+        </ul>
     </section>
 
     <section class="portfolio">
         <div class="container">
-            <ul class="portfolio_lista">
-                <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Retro"></li>
-                <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></li>
-                <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+            <ul class="portfolio_lista rslides_portfolio">
+                <li>
+                    <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Retro"></div>
+                    <div class="grid-8 foto"><img src="img/portfolio/passeio.jpg" alt="Bicicleta Passeio"></div>
+                    <div class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></div>
+                </li>
+
+                <li>
+                    <div class="grid-8 foto"><img src="img/portfolio/passeio.jpg" alt="Bicicleta Retro"></div>
+                    <div class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Passeio"></div>
+                    <div class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta Esporte"></div>
+                </li>                
             </ul>
         </div>
     </section>
@@ -104,6 +133,15 @@
         </div>
 
     </footer>
-    </body>
+
+
+    <!-- JavaScript -->
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- JavaScript -->
+
+</body>
 
 </html>

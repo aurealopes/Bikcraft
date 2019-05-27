@@ -262,8 +262,12 @@ img {
     color: #fff;
 }
 
-.portfolio_lista li:last-child {
+.portfolio_lista div:last-of-type {
     margin-top: 20px;
+}
+
+.portfolio_lista .foto img {
+    height: 280px;
 }
 
 /* Qualidade */
